@@ -76,7 +76,7 @@ a {
 
 .textos_nosotros{
     width: 900px;
-    height: 550px;
+    height: 580px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -84,12 +84,16 @@ align-items: center;
 flex-wrap: wrap;
 
 }
-
+.div1Nosotros{
+    height: 150px;
+    width: 680px;
+}
 .div2Nosotros{
     background-color: #343e4a;
     height: 150px;
     width: 680px;
     color: #fff;
+    margin-top: 70px;
 
 }
 
@@ -108,6 +112,14 @@ flex-wrap: wrap;
 
 .sectionCajaMayor{
     display: flex;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 90vh; 
+    width: 1350px;
 }
 
 .div1Aside{
